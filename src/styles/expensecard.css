@@ -1,0 +1,199 @@
+
+
+.dashboard {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(45deg, #4158d0, #c850c0); */
+    /* background-color:#fff; */
+    background-color: #E5E5E5;
+}
+
+
+.categorystats{
+    height: 300px;
+    width: 400px;
+    padding:1px;
+    padding-top:0px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    margin-left : 10px;
+    margin-right: 1px;
+    border-radius: 10px;
+    /* background-color: black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.expense-box {
+
+    height: 300px;
+    width: 400px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left:10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reportContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.totalspent{
+    height: 300px;
+    width: 400px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left : 10px;
+    margin-right: 1px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-style:solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.piechart{
+    height: 350px;
+    width: 300px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 5px;
+    margin-bottom:30px;
+    margin-left : 5px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-style: solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bargraph{
+    height: 350px;
+    width: 470px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 5px;
+    margin-bottom:30px;
+    margin-left : 10px;
+    margin-right:1px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-style:solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scatterchart{
+    height: 350px;
+    width: 410px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 5px;
+    margin-bottom:30px;
+    margin-left : 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-style:solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.yearlychart{
+    height: 250px;
+    width: 470px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 5px;
+    margin-bottom:30px;
+    margin-left : 10px;
+    margin-right:1px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-style:solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.donutchart{
+    height: 250px;
+    width: 400px;
+    padding:5px;
+    padding-top:3px;
+    margin-top: 5px;
+    margin-bottom:30px;
+    margin-left : 10px;
+    margin-right:1px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-style:solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.essayinput {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.top{
+    margin:0 auto
+}
+.title{
+    margin-top:60px;
+}
+
+label{
+    text-align: left;
+}
+
+
+.expense-form-title {
+    width: 90%;
+    display: block;
+    font-family: Raleway-Black;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+.submit{
+    margin: 30px;
+}
+
+.expense-forminput{
+    margin:10px;
+    height: 30px;
+    margin-top: 2px;
+    width:300px;
+    border:2px solid gray;
+    border-radius: 5px;
+}
+  
+.expense-submitbutton {
+    background-color: #1877f2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+  }
+.submitbutton:hover {
+    opacity: 0.8;
+}
+
+

@@ -6,16 +6,30 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.7.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "npm-force-resolutions": "^0.0.10",
     "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-google-login": "^5.2.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^4.0.3",
+    "stream": "^0.0.2",
+    "util": "^0.12.4",
+    "utils": "^0.3.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preinstall": "npx npm-force-resolutions"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "faker": "^6.6.6",
+    "react-error-overlay": "^6.0.9"
   }
 }

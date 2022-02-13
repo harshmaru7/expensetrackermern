@@ -1,0 +1,84 @@
+.card-spent {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexrow{
+    display:flex;
+    flex-direction: row;
+}
+
+.heading{
+    font-size: larger;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.circle-with-text {
+    
+    background : #D2F8DD;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px 10px;
+    margin-top:30px;
+    font-size: 21px;
+    padding: 15px;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border: 4px solid green;
+    box-shadow: inset 0 0 0 5px white;
+}
+
+
+.multi-line-text {
+    font-size: 20px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+}
+
+.solid {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top:40px;
+    padding: 10px;
+    margin-right:20px;
+    margin-left:20px;
+    background-color:#FDE5EC;
+    width:80px;
+}
+
+
+  /* .circle {
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background: #000
+  } */
+
+  
+/* fieldset {
+    border: 1px solid #000;
+} */
+
+/* #small-circle{
+    margin-top: 25%;
+    margin-left: 25%;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+} */
