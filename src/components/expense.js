@@ -21,7 +21,7 @@ function Expense(){
     const [costs,setCosts] = useState([])
     
     async function getExpenses(){
-        axios.get('http://localhost:1336/api/allexpensex')
+        axios.get('https://expense-trackermern.herokuapp.com/api/allexpensex')
                 .then((response)=>{
                     setCosts(response.data)
                 })
@@ -50,7 +50,7 @@ function Expense(){
 
     async function createExpense(){
 
-         const req =  await fetch('http://localhost:1336/api/expensex',{
+         const req =  await fetch('https://expense-trackermern.herokuapp.com/api/expensex',{
              method:'POST',
              headers:{
                  'Content-Type':'application/json',

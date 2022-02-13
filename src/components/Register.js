@@ -14,7 +14,7 @@ function App() {
   async function registerUser(event){
     event.preventDefault()
 
-    const response = await fetch('http://localhost:1338/api/register',{
+    const response = await fetch('https://expense-trackermern.herokuapp.com/api/register',{
       method:'POST',
       headers:{
         'Content-Type':'application/json',
